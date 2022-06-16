@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+#home {
+    position: relative;
+    width: 100%;
+    background-color: white;
+}
+
+.outer_id {
+    width: 100%;
+    background-color: orange;
+    height: 1600px;
+}
+
+#par_navbar {
+    height: 80px;
+    position: fixed;
+}
+
+.button {
+    background-color: transparent;
+}
+
+#parent_menu {
+    flex-wrap: nowrap;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    background-color: skyblue;
+    border: none;
+}
+
+#logo {
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+}
+
+#logoimg {
+    margin-top: 5px;
+    width: 200px;
+    height: 55px;
+    margin-left: 60px;
+    background-color: blue;
+}
+
+#menu_bar {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: #f8f9fa;
+}
+
+#ul_menu {
+    /* text-decoration: none;
+    list-style: none; */
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    color: orange;
+    background-color: #f8f9fa;
+    font-family: 'poppins';
+}
+
+.borderRadius {
+    border-radius: 100px;
+}
+
+.cont {
+    padding: 5px 10px;
+    background-color: none;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.cont:hover {
+    color: white;
+    background-color: blueviolet;
+}
+
+.cont>Link {
+    background-color: none;
+}
+
+#login {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    /* background-color: transparent; */
+    border: none;
+}
+
+#login>p {
+    font-size: small;
+}
+
+#loginimg {
+    /* margin-top: 10px; */
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    /* margin-left: -60px; */
+}
+
+#dialimg {
+    /* margin-top: 10px; */
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    /* margin-right: 200px; */
+    /* margin-left: -60px; */
+}
+
+li {
+    font-size: large;
+    color: white;
+}
+
+#btn {
+    margin-right: 10px;
+    border: none;
+    background-color: transparent;
+}
+
+.link_tag {
+    text-decoration: none;
+    color: rgb(59, 59, 59);
+}
+
+#p_contact {
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 12px;
+    font-size: larger;
+}
+
+
+/* ............................................................... */
+
+#carousal {
+    /* margin-top: 50px; */
+    background-color: darkolivegreen;
+    height: 500px;
+    position: relative;
+}
+
+#par_sideBAr_form {
+    height: 750px;
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+}
+
+#sideBar {
+    height: 650px;
+    background-color: darkgrey;
+    position: sticky;
+}
+
+#form {
+    height: 750px;
+    background-color: black;
+    color: white
+}
+
+#Members {
+    z-index: 1;
+    height: 70vh;
+    /* background-color: oldlace; */
+}
+
+#pub_imag {
+    height: 400px;
+    background-image: url('https://xp.io/storage/1prUyfj5.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+#pub_imag1 {
+    height: 50px;
+    /* background-image: url('https://xp.io/storage/1prUyfj5.jpg'); */
+    background-color: #c1edfb;;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#pub_imag>.overlay {
+    height: 100%;
+    width: 100%;
+    /* background-color: #1883aa7e; */
+    background-image: linear-gradient(to bottom, #1883aa7e, rgb(199, 199, 199));
+    z-index: -1;
+}
+
+#pub_imag>.overlay>.content {
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    flex-direction: column;
+}
+
+#fotter {
+    height: 100%;
+    background-color: skyblue;
+}
+
+#par_Login {
+    height: 740px;
+    background-color: darkcyan;
+}
+
+#signin {
+    height: 740px;
+    background-color: blueviolet;
+}
+
+#memberDataCard {
+    display: flex;
+    height: 200px;
+    margin-left: 200px;
+    padding-top: 30px;
+    /* position: relative; */
+}
+
+#memberDataCard>Card {
+    margin-right: 100px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.images_member {
+    width: 300px;
+    height: 500px;
+}
+
+.caro_image {
+    height: 500px;
+}
+
+#formik_form {
+    background-color: black;
+    margin-left: 400px;
+    border-radius: 20px;
+    margin-top: 100px;
+    height: 400px;
+    color: white;
+    width: 700px;
+}
+
+#order {
+    height: 400px;
+    margin-left: 100px;
+}
+
+.nav_button {
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+    cursor: pointer;
+    align-items: center;
+    margin-left: 10px;
+}
+
+#form {
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.block_css1 {
+    height: 300px;
+    background-color: navy;
+    border-radius: 10px;
+}
+
+.block_css2 {
+    height: 300px;
+    background-color: navy;
+    border-radius: 10px;
+}
+
+.block_css3 {
+    height: 300px;
+    background-color: navy;
+    border-radius: 10px;
+}
+
+.block_css1:hover {
+    color: red;
+    background-color: rgb(20, 215, 20);
+    transition: 0.3s;
+}
+
+.block_css2:hover {
+    color: blue;
+    background-color: rgb(241, 160, 8);
+    transition: 0.3s;
+}
+
+.block_css3:hover {
+    color: yellow;
+    background-color: rgb(248, 81, 81);
+    transition: 0.3s;
+}
+
+#parent_blocks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 250px;
+}
+
+#div_blocks {
+    z-index: 2;
+    margin-top: -70px;
+    position: relative;
+    height: 400px;
+    background-color: #f5f6f8;
+    /* display: flex; */
+}
+
+.info {
+    display: flex;
+    height: 100vh;
+}
+
+.img {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+}
+
+.img>img {
+    height: 400px;
+    width: 500px;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.333);
+}
+
+.content {
+    flex: 50%;
+    margin-top: 150px;
+    margin-right: 50px;
+    /* background-color: #000000; */
+}
+
+.content>h1 {
+    color: rgb(61, 191, 205);
+}
+
+.content>p {
+    font-style: italic;
+    font-size: large;
+}
+
+.form-control {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#doctor_card {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f6f8;
+    width: 100%;
+    height: 1200px;
+}
+
+#div1 {
+    /* border-radius: 100px; */
+}
+
+.signupform {
+    width: 50%;
+    margin-left: 350px;
+    margin-top: 30px;
+}
+
+.main_card {
+    height: 100vh;
+}
+
+#button1 {
+   
+    border: none;
+    background: linear-gradient(to right, #0b3bd8, #c7b0c7);
+    color:white;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.2);
+    
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+#curve{
+    border-radius: 20px;
+    width: 550px;
+    margin-left: 100px;
+    background-color: rgba(255, 255, 255, 0.334);
+}
+
+.body-signup-form{
+  
+        background: url('main.jpg');
+ 
+}
+#login-form-parent{
+ 
+        background: url('main.jpg');
+}
+#login-form-child{
+width: 350px;
+border-radius: 20px;
+}
+body {
+    background: url('signup.PNG');
+   
+}
+a ,h1, h2, h3{
+    font-family: 'poppins';
+
+}
+p{
+    font-family: 'poppins';
+
+}

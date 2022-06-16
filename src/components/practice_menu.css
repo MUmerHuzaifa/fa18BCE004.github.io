@@ -1,0 +1,13 @@
+#practice{
+    height: 400px;
+    width: 100%;
+    background-color: red;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+#button_fix{
+    width: 100px;
+    height: 100px;
+    /* position:fixed; */
+    position: sticky;
+}
