@@ -9,7 +9,7 @@ function Login_Form() {
         const addDetails = async (e,obj) => {
            
          await addLogin(obj);
-       }}
+       }
 
 
     const formik = useFormik({
